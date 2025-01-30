@@ -1,0 +1,11 @@
+/Users/yangyachu/Document/Coding/eclipse-workspace/workspace04/demo/src/main/java/com/example/demo/DemoApplication.java
+/Users/yangyachu/Document/Coding/eclipse-workspace/workspace04/demo/src/main/java/com/example/demo/controller/HelloController.java
+/Users/yangyachu/Document/Coding/eclipse-workspace/workspace04/demo/src/main/java/com/example/demo/controller/MerchandiseController.java
+/Users/yangyachu/Document/Coding/eclipse-workspace/workspace04/demo/src/main/java/com/example/demo/controller/ShopController.java
+/Users/yangyachu/Document/Coding/eclipse-workspace/workspace04/demo/src/main/java/com/example/demo/controller/UserController.java
+/Users/yangyachu/Document/Coding/eclipse-workspace/workspace04/demo/src/main/java/com/example/demo/model/Merchandise.java
+/Users/yangyachu/Document/Coding/eclipse-workspace/workspace04/demo/src/main/java/com/example/demo/model/User.java
+/Users/yangyachu/Document/Coding/eclipse-workspace/workspace04/demo/src/main/java/com/example/demo/repository/MerchandiseRepository.java
+/Users/yangyachu/Document/Coding/eclipse-workspace/workspace04/demo/src/main/java/com/example/demo/repository/UserRepository.java
+/Users/yangyachu/Document/Coding/eclipse-workspace/workspace04/demo/src/main/java/com/example/demo/service/MerchandiseService.java
+/Users/yangyachu/Document/Coding/eclipse-workspace/workspace04/demo/src/main/java/com/example/demo/service/UserService.java

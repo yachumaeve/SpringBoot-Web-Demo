@@ -1,0 +1,144 @@
+@charset "UTF-8";
+/* 圖片置中 */
+.center-block {
+  display: block;
+  margin: 0 auto;
+}
+/*home背景*/
+.homeBackground{
+	background-image: url('/image/home_imag01.png');  /* 設定背景圖片 */
+    background-size: cover;  /* 讓圖片填滿 */
+    background-position: center;  /* 讓圖片居中 */
+    background-repeat: no-repeat; /* 不要重複 */
+    width: 100%;
+    height: 100vh; /* 設定為視窗高度 */
+}
+
+/* 左側菜單*/
+.menu-left{
+   float: left; /* 將整個選單容器靠左 */
+   top: 0; /* 距離畫面頂部 0px */
+   left: 0; /* 靠左側 */
+   width: 80px; /* 設置寬度，視需要調整 */
+   height: 100%;; /* 讓菜單高度佔滿畫面 */
+   padding: 10px; /* 內邊距 */  
+}
+.menu-right{
+	float:right; /* 固定位置 */
+    top: 0; 
+    right: 0; /* 靠右側 */
+    padding: 10px 15px; /* 內間距 */ 
+}
+
+.menu-text {
+	font-family: "Exo 2", serif;; /* 類似的圓潤字體 */
+    font-size: 1.5rem; /* 字體大小 */
+    font-weight: bold; /* 粗體 */
+    text-transform: uppercase; /* 轉成大寫 */
+    padding: 10px;
+    letter-spacing: 1.5px; /* 增加字母間距 */
+    text-shadow: 1px 1px 0px #5c1f15; /* 模擬浮雕效果 */
+    color: #bf412c; /* 深紅色字體 */
+	text-decoration: none; /* 移除底線 */
+}
+
+.menu-text-right {
+	font-family: "Exo 2", serif;; /* 類似的圓潤字體 */
+    font-size: 1rem; /* 字體大小 */
+    font-weight: bold; /* 粗體 */
+    text-transform: uppercase; /* 轉成大寫 */
+    padding: 10px;
+    letter-spacing: 1.5px; /* 增加字母間距 */
+    text-shadow: 1px 1px 0px #5c1f15; /* 模擬浮雕效果 */
+    color: #bf412c; /* 深紅色字體 */
+	text-decoration: none; /* 移除底線 */
+}
+.menu-text:hover {
+    color: #bf412c;  /* 滑鼠移上去時的顏色 */
+    text-decoration: none; /* 確保沒有底線 */
+}
+.menu-text-right:hover {
+    color: #bf412c;  /* 滑鼠移上去時的顏色 */
+    text-decoration: none; /* 確保沒有底線 */
+}
+/* 設定列表樣式 */
+.menu-list {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-list li {
+    margin: 10px 0; /* 增加間距 */
+}
+
+/* Shop Navbar */
+.menu-list-nav {
+	display: flex; /* 使用 flexbox 實現水平排列 */
+    justify-content: center; /* 水平置中 */
+    list-style-type: none; /* 移除預設列表樣式 */
+    margin: 0; /* 移除外邊距 */
+    padding: 0; /* 移除內邊距 */
+    gap: 20px; /* 項目間距 */
+}
+.menu-nav {
+    width: 100%; /* 菜單佔滿寬度 */
+    padding: 10px 10px; /* 上下內邊距 */
+    
+}
+
+/* 商品卡片 */
+.card {
+    border: none; /* 移除邊框 */
+    overflow: hidden; /* 防止圖片溢出 */
+    max-width: 350px;  /* 設定最大寬度 */
+    width: 100%; 
+}
+.card-img-top {
+    object-fit: cover; /* 圖片適應卡片寬度 */
+    height: 350px; /* 固定高度，避免卡片大小不一致 */
+}
+
+.card-title, .card-text {
+    margin: 0;
+    padding: 0;
+    font-family:Arial;
+    font-size: 16px;
+}
+
+.container {
+    padding: 0 10px; /* 確保內容與左右邊緣有間距 */
+}
+/*商品table*/
+.table {
+    width: 80%; /* 設定表格寬度為 80% */
+    max-width: 1000px; /* 限制最大寬度 */
+    margin: auto; /* 讓表格置中 */
+    table-layout: fixed;
+}
+
+.text-style{
+	font-family: "Exo 2", serif;; /* 類似的圓潤字體 */
+    font-size: 2rem; /* 字體大小 */
+    font-weight: bold; /* 粗體 */
+    text-transform: uppercase; /* 轉成大寫 */
+    padding: 10px;
+    letter-spacing: 1.5px; /* 增加字母間距 */
+    text-shadow: 1px 1px 0px #5c1f15; /* 模擬浮雕效果 */
+    color: #bf412c; /* 深紅色字體 */
+	text-decoration: none; /* 移除底線 */
+	text-align: center; /* 讓文字水平置中 */
+}
+
+th, td {
+    word-wrap: break-word;
+    white-space: normal; /* 允許換行 */
+    overflow: hidden; /* 隱藏超出部分 */
+    text-overflow: ellipsis; /* 省略號（…）顯示超出部分，可選 */
+}
+
+.button-right {
+    display: flex;
+    justify-content: flex-end; /* 讓按鈕靠左 */
+    margin-top: 10px; /* 與表格保持距離 */
+    margin-right:250px;
+}

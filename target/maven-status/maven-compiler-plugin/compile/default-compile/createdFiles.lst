@@ -1,0 +1,11 @@
+com/example/demo/controller/MerchandiseController.class
+com/example/demo/DemoApplication.class
+com/example/demo/controller/HelloController.class
+com/example/demo/model/User.class
+com/example/demo/service/UserService.class
+com/example/demo/repository/UserRepository.class
+com/example/demo/controller/ShopController.class
+com/example/demo/service/MerchandiseService.class
+com/example/demo/repository/MerchandiseRepository.class
+com/example/demo/controller/UserController.class
+com/example/demo/model/Merchandise.class

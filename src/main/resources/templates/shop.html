@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		
+		<!-- Required meta tags -->
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	    <!-- Bootstrap CSS -->
+	    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+		<!-- custom CSS and JS -->
+		<script src="/js/userData.js"></script>
+		<link href="/css/custom.css" rel="stylesheet" />
+		
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+		
+		<title>BOBO&QUOKKA</title>
+	</head>
+	<body>
+		<!-- menu -->
+		<div th:insert="~{menu}"></div>
+		<div class="container mt-3">
+			<!-- 圖片 -->
+	    	<div class="d-flex justify-content-center mb-4">
+	            <img src="/image/shop_image01.png" class="center-block" alt="Shop Logo" style="width: 20%; height: auto;">
+	        </div>
+	        <!-- Navbar -->
+		    	<div class="d-flex justify-content-center mb-4" th:insert="~{navbar}"></div>
+	        <!-- 商品區 -->
+		    <div class="row justify-content-start g-4 ms-5">
+		        <!-- 遍歷 merchandiseList，為每個物品生成一張卡片 -->
+		        <div class="col-md-4 col-lg-4" th:each="merchandise : ${merchandiseList}">
+		            <div class="card" style="border: none;">
+		                <!-- 商品圖片 -->
+		                <img th:src="${merchandise.imgurl}" class="card-img-top" alt="Image of ${merchandise.name}" />
+		                <div class="card-body">
+		                    <!-- 商品名稱 -->
+		                    <h5 class="card-title text-center" th:text="${merchandise.name}">Card Title</h5>
+		                    <!-- 商品價格 -->
+		                    <p class="card-text text-center" th:text="'$'+${merchandise.price}"></p>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+		</div>
+		<!-- Option 1: Bootstrap Bundle with Popper -->
+	    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+		
+	</body>
+</html>
