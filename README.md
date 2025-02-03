@@ -8,6 +8,7 @@ API、MySQL 資料庫，並成功將應用部署至 AWS EC2。
 * RESTful API 設計：使用 @ResponseBody 讓前端能夠即時獲取 JSON 數據，提升 API 擴展性。
 * 資料庫效能優化：透過 索引（Indexing）與 查詢優化（JPQL）降低查詢延遲，提升系統效能。
 * AWS 部署學習：透過 EC2 部署專案，學習雲端環境的設定。
+  
 未來優化方向：
 * 前端架構提升：改用 Vue.js 或 React 來加強前端互動性，使系統更靈活。
 * 安全性強化：導入 Spring Security，確保使用者驗證與授權安全。
