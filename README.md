@@ -18,3 +18,5 @@ API、MySQL 資料庫，並成功將應用部署至 AWS EC2。
 題的經驗。我期待未來能進一步深化技術，開發更具挑戰性的專案！
 
 詳細作品集說明請參考PDF檔案：https://drive.google.com/file/d/1tuxFGvZB7PfNEIZbcTy2BuEBzEQG9CRh/view?usp=sharing
+
+<img width="1437" alt="aws2" src="https://github.com/user-attachments/assets/63f8215d-8b12-44bd-bdca-fee401886f5c" />
